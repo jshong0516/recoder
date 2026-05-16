@@ -18,16 +18,18 @@ public class MouseMovement : MonoBehaviour
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        if (InventorySystem.Instance.isOpen==false) {
+            float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+            float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-        YRotation += mouseX;
+            xRotation -= mouseY;
+            xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+            YRotation += mouseX;
 
-        // 카메라는 상하만
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        // 플레이어 몸체는 좌우만
-        playerBody.localRotation = Quaternion.Euler(0f, YRotation, 0f);
+            // 카메라는 상하만
+            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+            // 플레이어 몸체는 좌우만
+            playerBody.localRotation = Quaternion.Euler(0f, YRotation, 0f);
+        }
     }
 }
