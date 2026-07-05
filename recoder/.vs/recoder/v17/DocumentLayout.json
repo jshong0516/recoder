@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "F:\\GitHub\\recoder\\recoder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\Blueprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Blueprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\CraftingSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CraftingSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\InventroySystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InventroySystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\DragDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DragDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\ItemSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\Ai_Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Ai_Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\InteractableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InteractableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\MouseMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +31,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\ItemSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\DragDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DragDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\SelectionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SelectionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\InteractableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InteractableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\CraftingSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CraftingSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\Ai_Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Ai_Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\Blueprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Blueprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHub\\recoder\\recoder\\Library\\PackageCache\\com.unity.render-pipelines.universal@580a03820d50\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@580a03820d50\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,37 +54,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "F:\\GitHub\\recoder\\recoder\\Library\\PackageCache\\com.unity.render-pipelines.universal@580a03820d50\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@580a03820d50\\Shaders\\Lit.shader",
+              "ToolTip": "F:\\GitHub\\recoder\\recoder\\Library\\PackageCache\\com.unity.render-pipelines.universal@580a03820d50\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@580a03820d50\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAPUBAAAAAAAAAAAqwBYCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-05T13:00:48.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Blueprint.cs",
               "DocumentMoniker": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\Blueprint.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Blueprint.cs",
               "ToolTip": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\Blueprint.cs",
               "RelativeToolTip": "Assets\\Scripts\\Blueprint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-04T16:53:12.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "CraftingSystem.cs",
               "DocumentMoniker": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\CraftingSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CraftingSystem.cs",
               "ToolTip": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\CraftingSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\CraftingSystem.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAwJwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAwHQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-23T16:38:27.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Ai_Movement.cs",
               "DocumentMoniker": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\Ai_Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ai_Movement.cs",
@@ -93,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "InteractableObject.cs",
               "DocumentMoniker": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\InteractableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InteractableObject.cs",
@@ -112,14 +129,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SelectionManager.cs",
               "ToolTip": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\SelectionManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SelectionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T14:27:04.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "DragDrop.cs",
               "DocumentMoniker": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\DragDrop.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DragDrop.cs",
@@ -132,46 +149,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "InventroySystem.cs",
               "DocumentMoniker": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\InventroySystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InventroySystem.cs",
               "ToolTip": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\InventroySystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\InventroySystem.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAJwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T05:39:54.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ItemSlot.cs",
               "DocumentMoniker": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\ItemSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSlot.cs",
               "ToolTip": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\ItemSlot.cs",
               "RelativeToolTip": "Assets\\Scripts\\ItemSlot.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T05:37:15.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowDIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T15:29:49.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MouseMovement.cs",
               "DocumentMoniker": "F:\\GitHub\\recoder\\recoder\\Assets\\Scripts\\MouseMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MouseMovement.cs",

@@ -79,21 +79,22 @@ public class CraftingSystem : MonoBehaviour
 
         StartCoroutine(calculate());
 
-        RefreshNeededItems();
     }
 
     public IEnumerator calculate()
     {
-        yield return new WaitForSeconds(1f);
+        yield return 0;
 
         InventorySystem.Instance.ReCalculeList();
+
+        RefreshNeededItems();
     }
 
 
     void Update()
     {
 
-        RefreshNeededItems();
+        
 
 
         if (Input.GetKeyDown(KeyCode.C)&&!isOpen)
@@ -113,7 +114,7 @@ public class CraftingSystem : MonoBehaviour
 
     
 
-    private void RefreshNeededItems()
+    public void RefreshNeededItems()
     {
         int stone_count = 0;
         int stick_count = 0;
