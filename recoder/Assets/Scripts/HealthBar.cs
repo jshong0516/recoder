@@ -11,7 +11,7 @@ public class HealthBar : MonoBehaviour
 
     public GameObject playerState;
 
-    private float currentHelth, maxHealth;
+    private float currentHealth, maxHealth;
 
 
 
@@ -23,13 +23,13 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentHelth = playerState.GetComponent<PlayerState>().currentHelth;
+        currentHealth = playerState.GetComponent<PlayerState>().currentHealth;
         maxHealth = playerState.GetComponent<PlayerState>().maxHealth;
 
-        float fillValue = currentHelth / maxHealth;
+        float fillValue = currentHealth / maxHealth;
         slider.value = fillValue;
 
-        healthCounter.text = currentHelth + "/" + maxHealth;
+        healthCounter.text = currentHealth + "/" + maxHealth;
 
     }
 }

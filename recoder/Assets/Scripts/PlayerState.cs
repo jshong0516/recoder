@@ -8,7 +8,7 @@ public class PlayerState : MonoBehaviour
 
     //------Player Health ----//
 
-    public float currentHelth;
+    public float currentHealth;
     public float maxHealth;
 
 
@@ -46,7 +46,7 @@ public class PlayerState : MonoBehaviour
 
     private void Start()
     {
-        currentHelth = maxHealth;
+        currentHealth = maxHealth;
         currentCalories = maxCalories;
         currentHydrationPercent = maxHydrationPercent;
 
@@ -80,9 +80,27 @@ public class PlayerState : MonoBehaviour
         //testing
         if(Input.GetKeyDown(KeyCode.N))
         {
-            currentHelth -= 10;
+            currentHealth -= 10;
 
 
         }
+
+        
+    }
+
+    public void setHealth(float newHealth)
+    {
+        currentHealth = newHealth;
+
+    }
+
+    public void setCalories(float newCalories)
+    {
+        currentCalories = newCalories;
+    }
+
+    public void setHydration(float newHydration)
+    {
+        currentHydrationPercent = newHydration;
     }
 }

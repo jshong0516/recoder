@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class InventorySystem : MonoBehaviour
 {
 
+    public GameObject ItemInfoUi;
+
     public static InventorySystem Instance { get; set; }
 
     public GameObject inventoryScreenUI;
@@ -158,7 +160,7 @@ public class InventorySystem : MonoBehaviour
             {
                 if (slotList[i].transform.GetChild(0).name == nameToRemove + "(Clone)" && counter != 0)
                 {
-                    Destroy(slotList[i].transform.GetChild(0).gameObject);
+                    DestroyImmediate(slotList[i].transform.GetChild(0).gameObject);
 
                     counter -= 1;
                 }
