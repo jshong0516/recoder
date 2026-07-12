@@ -26,6 +26,13 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public float caloriesEffect;
     public float hydrationEffect;
 
+    // --- Equipping -- //
+    public bool isEquippable;
+    private GameObject itemPendingEquipping;
+    public bool isNowEquipped;
+
+    public bool isSelected;
+
 
     private void Start()
     {
@@ -62,7 +69,16 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
                 itemPendingConsumption = gameObject;
                 consumingFunction(healthEffect, caloriesEffect, hydrationEffect);
             }
+
+            if(isEquippable && isNowEquipped == false && EquipSystem .Instance.CheckIfFull() == false)
+                {
+                    EquipSystem.Instance.AddToQuickSlots(gameObject);
+                    isNowEquipped = true;
+                }
+
         }
+
+        
     }
 
     // Triggered when the mouse button is released over the item that has this script.

@@ -49,7 +49,11 @@ public class InventorySystem : MonoBehaviour
         isOpen = false;
 
         PopulateSlotList();
+
+        Cursor.visible = false;
     }
+
+    
 
     public void PopulateSlotList()
     {
@@ -73,18 +77,29 @@ public class InventorySystem : MonoBehaviour
             Debug.Log("i is pressed");
             inventoryScreenUI.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+            SelectionManager.Instance.DisableSelection();
+            SelectionManager.Instance.GetComponent<SelectionManager>().enabled = false;
+
             isOpen = true;
 
         }
         else if (Input.GetKeyDown(KeyCode.I) && isOpen)
         {
+            isOpen = false;
             inventoryScreenUI.SetActive(false);
 
             if(!InventorySystem.Instance.isOpen)
             {
                 Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+
+                SelectionManager.Instance.EnableSelection();
+                SelectionManager.Instance.GetComponent<SelectionManager>().enabled = true;
+
             }
-            isOpen = false;
+            
         }
     }
 
@@ -109,6 +124,13 @@ public class InventorySystem : MonoBehaviour
         pickupAlert.SetActive(true);
         pickupName.text = itemName;
         pickupImage.sprite = itemSprite;
+
+        Invoke("PopupDelay", 1.0f);
+    }
+
+    public void PopupDelay()
+    {
+        pickupAlert.SetActive(false);
     }
 
     private GameObject FindNextEmptySlot()
