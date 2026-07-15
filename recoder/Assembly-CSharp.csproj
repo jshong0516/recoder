@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\SelectionManager.cs" />
     <Compile Include="Assets\Scripts\CaloriesBar.cs" />
     <Compile Include="Assets\Scripts\HydrationBar.cs" />
+    <Compile Include="Assets\Scripts\GlobalState.cs" />
     <Compile Include="Assets\DL\Rabbits\Demo\Scripts\AnimatorParamatersChange.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\InteractableObject.cs" />
@@ -76,6 +77,8 @@
     <Compile Include="Assets\Scripts\InventoryItem.cs" />
     <Compile Include="Assets\Scripts\EquipableItem.cs" />
     <Compile Include="Assets\Scripts\Blueprint.cs" />
+    <Compile Include="Assets\Scripts\ChoppableTree.cs" />
+    <Compile Include="Assets\Scripts\ResourceHealthBar.cs" />
     <Compile Include="Assets\Scripts\PlayerState.cs" />
     <Compile Include="Assets\Scripts\DragDrop.cs" />
     <Compile Include="Assets\Scripts\Ai_Movement.cs" />
