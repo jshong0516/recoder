@@ -12,11 +12,17 @@ public class ChoppableTree : MonoBehaviour
     public float treeMaxHealth;
     public float treeHealth;
 
+    public Animator animator;
+
+    public float caloriesSpentChoppingWood = 20;
+
     private bool isHitCooldown = false;// not tutorial
+    [SerializeField] private float hitCooldown = 0.6f;// not tutorial
 
     private void Start()
     {
         treeHealth = treeMaxHealth;
+        animator = transform.parent.transform.parent.GetComponent<Animator>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -39,16 +45,44 @@ public class ChoppableTree : MonoBehaviour
     public void GetHit()
     {
         if (isHitCooldown) return;
-        StartCoroutine(hit());
+        StartCoroutine(HitCooldown());
+        
+
+        animator.SetTrigger("shake");
+        treeHealth -= 1;
+        
+
+        PlayerState.Instance.currentCalories -= caloriesSpentChoppingWood;
+
+
+        if(treeHealth <= 0)
+        {
+            TreeIsDead();
+        }
     }
 
-    public IEnumerator hit()
+    private IEnumerator HitCooldown()//not tutorial
     {
         isHitCooldown = true;
-        treeHealth -= 1;
-        yield return new WaitForSeconds(0.6f);
+
+        yield return new WaitForSeconds(hitCooldown);
+
         isHitCooldown = false;
-        
+    }
+
+    
+
+    void TreeIsDead()
+    {
+        Vector3 treePosition = transform.position;
+
+        Destroy(transform.parent.transform.parent.gameObject);
+        canBeChopped = false;
+        SelectionManager.Instance.selectedTree = null;
+        SelectionManager.Instance.chopHolder.gameObject.SetActive(false);
+
+        GameObject brokenTree = Instantiate(Resources.Load<GameObject>("ChoppedTree"), 
+        new Vector3(treePosition.x, treePosition.y+2, treePosition.z), Quaternion.Euler(0,0,0));
     }
 
 

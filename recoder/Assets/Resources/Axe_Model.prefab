@@ -94,7 +94,7 @@ Animator:
   m_GameObject: {fileID: 2368844044020319081}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 44c2f51f3fdc24544af571d92b4153aa, type: 2}
+  m_Controller: {fileID: 9100000, guid: cb2a8e054bf15144faf677a891b6dba9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -118,3 +118,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b93fc3a1653f0d4fa60f7dc2020e4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EquipPableItem
+  animator: {fileID: 0}
